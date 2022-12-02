@@ -1,0 +1,14 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+      {
+        "name": "Debug main",
+        "type": "node",
+        "port": 9229,
+        "request": "attach",
+        "localRoot": "${workspaceFolder}",
+        //"runtimeArgs": ["-r", "ts-node/register"],
+        "sourceMaps": true
+      }
+    ]
+  }
